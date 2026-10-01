@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Comments Extractor</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d1d1f; --muted:#5b5b66; --line:#e3e3e8; --accent:#2f5bea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16171b; --fg:#ececf1; --muted:#a0a0ad; --line:#2c2d34; --accent:#8aa4ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+  h1 { font-size: 1.9rem; line-height:1.25; margin: 18px 0 6px; }
+  h3 { font-size: 1.05rem; margin: 26px 0 4px; }
+  p, li { margin: 8px 0; }
+  ul, ol { padding-left: 22px; }
+  a { color: var(--accent); }
+  nav { display:flex; gap:18px; flex-wrap:wrap; padding-bottom:14px; border-bottom:1px solid var(--line); }
+  .muted { color: var(--muted); font-size: .95rem; }
+  .box { border:1px solid var(--line); border-radius:10px; padding: 4px 18px; margin: 16px 0; }
+  table { border-collapse: collapse; width:100%; margin: 12px 0; font-size:.97rem; display:block; overflow-x:auto; }
+  th, td { border:1px solid var(--line); padding: 8px 10px; text-align:left; vertical-align:top; }
+  .cards a { display:block; border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:12px 0; text-decoration:none; }
+  .cards strong { display:block; font-size:1.1rem; }
+</style>
+</head>
+<body>
+<main>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="data-deletion.html">Data deletion</a>
+  <a href="terms.html">Terms of use</a>
+</nav>
+
+<h1>Privacy Policy</h1>
+<p class="muted">Comments Extractor &middot; Last updated: 1 October 2026</p>
+
+<h3>1. Who we are and what this tool does</h3>
+<p>Comments Extractor is run by Gokulakrishna Ramachandran. The tool reads posts and comments from an Instagram Creator or Business account belonging to our client (Nivedita (The Women of Cinema)),
+using Meta's official Instagram API ("Instagram API with Instagram Login"). The client uses the results to understand, in
+aggregate, how their audience responds to their content. We process this data on the client's instructions, for the client's own
+account, and for no other purpose.</p>
+
+<h3>2. What we collect</h3>
+<table>
+  <tr><th>From the account owner</th><td>An access token that Instagram gives us after the owner logs in on Instagram's own page and approves access. We never see or store the owner's Instagram password.</td></tr>
+  <tr><th>From the account's posts</th><td>Captions, dates, post type, links, and like and comment counts.</td></tr>
+  <tr><th>From the comments on those posts</th><td>Comment text, date and time, comment like count, and the commenter's public Instagram username.</td></tr>
+  <tr><th>What we do <u>not</u> collect</th><td>Passwords, direct messages, follower or following lists, commenters' profile details, photos or videos of commenters, data from other accounts, or any account that has not approved access.</td></tr>
+</table>
+<p>Comment text is written by the public and can occasionally contain names, handles or other personal details. We don't search for these or use them to identify anyone.</p>
+
+<h3>3. Why we collect it</h3>
+<p>To measure, across many comments at once, which topics come up, what tone people use, and how that relates to the wider
+audience conversation around the client's posts. Results are reported <strong>in aggregate</strong> (for example, "a large share of comments
+on posts about topic X were critical"). Any comment shown as an example in a report has names and handles removed.</p>
+<p>We do <strong>not</strong>:</p>
+<ul>
+  <li>build profiles of individual commenters, or label or guess any individual's beliefs, politics, religion or identity;</li>
+  <li>use the data for advertising or marketing, or to contact anyone;</li>
+  <li>sell, rent or trade the data;</li>
+  <li>make any decision about an individual person from this data.</li>
+</ul>
+
+<h3>4. How we protect commenters' identities</h3>
+<ul>
+  <li>When comments are saved, each username is replaced with a one-way, salted code (for example <code>u_3fa91c07de</code>). Our analysis files contain these codes, not the usernames.</li>
+  <li>The secret "salt" used to make the codes is kept separately, so the codes cannot be reversed by anyone who only has the analysis files.</li>
+  <li>We can still honour your deletion request: if you tell us your username, we can generate your code and delete your comments (see <a href="data-deletion.html">Data deletion</a>).</li>
+</ul>
+
+<h3>5. Who sees the data, and where it goes</h3>
+<ul>
+  <li><strong>The client</strong> receives aggregated findings. They already own the posts and can see the comments on their own account.</li>
+  <li><strong>No AI services.</strong> We don't send comment data to any AI or third-party analysis service.</li>
+  <li><strong>Storage.</strong> Data is stored on my own computer in India. Only Gokulakrishna Ramachandran has access.</li>
+  <li>We don't share the data with anyone else, unless the law requires it.</li>
+</ul>
+
+<h3>6. How long we keep it</h3>
+<p>Raw comment data is deleted 90 days after the final report goes to the client, or earlier if the client asks.
+Fully aggregated results (counts and percentages that cannot be traced to a person) may be kept longer.
+The Instagram access token is deleted when the project ends, and the account owner can cut it off at any moment (see section 7).</p>
+
+<h3>7. Your choices and rights</h3>
+<ul>
+  <li><strong>Account owner:</strong> you can switch access off yourself, at any time, on Instagram: <em>Settings &rarr; Apps and websites &rarr; Active &rarr; remove this app</em> (the exact wording varies by Instagram version). That cancels our token immediately.</li>
+  <li><strong>Anyone who commented:</strong> you can ask us what we hold, ask us to correct it, or ask us to delete it. See <a href="data-deletion.html">Data deletion</a>.</li>
+  <li>We try to follow India's Digital Personal Data Protection Act, 2023, and we're happy to deal with requests from people anywhere.</li>
+</ul>
+
+<h3>8. Security</h3>
+<p>The access token is kept in a file restricted to our own user account and is never put in code or shared. Data sits on a device protected by full-disk encryption and a password.
+No system is perfectly secure, but we keep this small, simple and locked down. If we ever discover a breach affecting you, we will tell the client and, where appropriate, you.</p>
+
+<h3>9. Children</h3>
+<p>This tool isn't aimed at children and we don't knowingly collect data about anyone under 18 beyond what appears in public comments. Instagram has its own age rules.</p>
+
+<h3>10. Meta and Instagram</h3>
+<p>This tool uses Meta's Instagram API and follows Meta's Platform Terms. It is not made, endorsed or sponsored by Meta or Instagram.</p>
+
+<h3>11. Changes to this page</h3>
+<p>If we change how we handle data, we'll update this page and the date at the top.</p>
+
+<h3>12. Contact and complaints</h3>
+<p>Questions, requests or complaints: <a href="mailto:gookkuul@gmail.com">gookkuul@gmail.com</a>.
+We aim to reply within 7 days and to complete deletion requests within 30 days.</p>
+
+</main>
+</body>
+</html>
